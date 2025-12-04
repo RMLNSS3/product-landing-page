@@ -1,46 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Product Landing Page</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header id="header">
-      <img id="header-img" src="logo.png" alt="Product Logo" />
-      <nav id="nav-bar">
-        <a class="nav-link" href="#features">Features</a>
-        <a class="nav-link" href="#video">Video</a>
-        <a class="nav-link" href="#pricing">Pricing</a>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PulseTrack — Smart Fitness Band</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header id="header">
+    <!-- Logo -->
+    <img id="header-img" src="logo.png" alt="PulseTrack Logo" />
+    <nav id="nav-bar">
+      <a class="nav-link" href="#features">Features</a>
+      <a class="nav-link" href="#demo">Demo</a>
+      <a class="nav-link" href="#pricing">Pricing</a>
+    </nav>
+  </header>
 
-    <section id="hero">
-      <h1>Welcome to Our Product</h1>
-      <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <input id="email" type="email" name="email" placeholder="Enter your email" required />
-        <input id="submit" type="submit" value="Get Started" />
-      </form>
-    </section>
+  <section id="hero">
+    <h1>Track Your Health. Elevate Your Life.</h1>
+    <p>PulseTrack is the next-gen fitness band that adapts to your lifestyle.</p>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input id="email" type="email" name="email" placeholder="Enter your email" required />
+      <input id="submit" type="submit" value="Get Started" />
+    </form>
+  </section>
 
-    <section id="features">
-      <h2>Features</h2>
-      <p>Fast, reliable, and easy to use.</p>
-    </section>
+  <section id="features">
+    <h2>Why PulseTrack?</h2>
+    <div class="feature">
+      <h3>24/7 Heart Monitoring</h3>
+      <p>Real-time insights into your heart rate and stress levels.</p>
+    </div>
+    <div class="feature">
+      <h3>Sleep Optimization</h3>
+      <p>Advanced sleep tracking with personalized recovery tips.</p>
+    </div>
+    <div class="feature">
+      <h3>Waterproof & Durable</h3>
+      <p>Built for workouts, rain, and everything in between.</p>
+    </div>
+  </section>
 
-    <section id="video">
-      <h2>Watch Our Demo</h2>
-      <iframe id="video" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
-    </section>
+  <!-- Professional Demo Video -->
+  <section id="demo">
+    <h2>See PulseTrack in Action</h2>
+    <iframe id="video" src="https://www.youtube.com/embed/fTXRQ2hc9pI" allowfullscreen></iframe>
+  </section>
 
-    <section id="pricing">
-      <h2>Pricing</h2>
-      <p>Basic – $9/month</p>
-      <p>Pro – $19/month</p>
-    </section>
+  <section id="pricing">
+    <h2>Choose Your Plan</h2>
+    <div class="plan">
+      <h3>Basic</h3>
+      <p>$49 one-time</p>
+    </div>
+    <div class="plan">
+      <h3>Pro</h3>
+      <p>$99 with premium app access</p>
+    </div>
+  </section>
 
-    <footer>
-      <p>&copy; 2025 Product Co.</p>
-    </footer>
-  </body>
+  <footer>
+    <p>&copy; 2025 PulseTrack Inc. | <a href="#">Privacy Policy</a></p>
+  </footer>
+</body>
 </html>
